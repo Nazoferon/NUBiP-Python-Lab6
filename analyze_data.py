@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import os
 
 # Налаштування шрифтів для підтримки української мови
-plt.rcParams['font.family'] = 'DejaVu Sans'
-plt.rcParams['font.sans-serif'] = ['DejaVu Sans']
+plt.rcParams['font.family'] = 'Times New Roman'
+plt.rcParams['font.sans-serif'] = ['Times New Roman']
 
 def calculate_age(birth_date_str):
     """ Обчислює вік на основі дати народження у форматі 'дд.мм.рррр' """
