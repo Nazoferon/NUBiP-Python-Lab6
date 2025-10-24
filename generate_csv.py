@@ -35,7 +35,7 @@ def generate_employee():
     
     last_name = fake.last_name()
     
-    # Дата народження (між 1938 і 2008 роками)
+    # Дата народження
     start_date = datetime(1938, 1, 1)
     end_date = datetime(2008, 12, 31)
     birth_date = fake.date_between(start_date=start_date, end_date=end_date)
